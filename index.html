@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Contoh Tabel HTML Murni</title>
+</head>
+<body>
+   <table border="1" width="100%" cellpadding="8" cellspacing="0"> 
+     <caption>
+        <h1>DAFTAR NILAI SISWA</h1>
+     </caption>
+     <colgroup>
+       <col span="1"/>
+       <col span="1"/>
+       <col span="1"/>
+       <col span="1"/>
+       <col span="1"/>
+    </colgroup>
+
+    <thead>
+        <tr>
+            <th rowspan="2">No</th>
+            <th rowspan="2">Nama</th>
+            <th rowspan="2">Mapel</th>
+            <th colspan="2">Nilai</th>
+            <th rowspan="2">Keterangan</th>
+        </tr>
+        <tr>
+            <th>UTS</th>
+            <th>UAS</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Ani</td>
+            <td>Bahasa Inggris</td>
+            <td>85</td>
+            <td>90</td>
+            <td>Lulus</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Budi</td>
+            <td>Bahasa Inggris</td>
+            <td>78</td>
+            <td>80</td>
+            <td>Remedial</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Citra</td>
+            <td>Matematika</td>
+            <td>92</td>
+            <td>95</td>
+            <td>Lulus</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="3"><b>Rata-rata Nilai Kelas</b></td>
+            <td><b>85</b></td>
+            <td>88.3</td>
+            <td>-</td>
+        </tr>
+    </tfoot>
+   </table>
+</body>
+</html>
